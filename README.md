@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# 🎓 College Website – React.js Project  
+### 🔗 Live Demo: https://rajasreesale.netlify.app/  
+A fully responsive and modern College Website built using React.js. This project displays essential college sections including Programs, Departments, Faculty, Admissions, Events, and Contact details. It demonstrates strong frontend skills, component-based architecture, and real-world deployment using Netlify.  
+## ⭐ Project Overview  
+This website presents a college's information in a clean and user-friendly interface. Built with React components, it allows easy modification, scalability, and fast rendering. This project highlights professional frontend development, clean UI/UX layout, proper component structuring, deployment experience, and real-world development workflow.  
+## 🚀 Features  
+✔ Fully responsive UI  
+✔ Clean and modern design  
+✔ Reusable React components  
+✔ Optimized and fast performance  
+✔ Simple code architecture  
+✔ Deployed using Netlify  
+## 🌐 Live Output  
+🔗 https://rajasreesale.netlify.app/  
+## 📁 Folder Structure  
+bec-site/
+│── public/
+│ ├── index.html
+│ ├── favicon.ico
+│ ├── manifest.json
+│ ├── robots.txt
+│ └── _redirects
+│
+│── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Programs.jsx
+│ │ ├── Departments.jsx
+│ │ ├── Faculty.jsx
+│ │ ├── Admissions.jsx
+│ │ ├── Placements.jsx
+│ │ ├── Events.jsx
+│ │ ├── Research.jsx
+│ │ ├── QuickLinks.jsx
+│ │ └── Footer.jsx
+│ ├── App.jsx
+│ ├── index.js
+│ └── styles.css
+│
+├── package.json
+├── package-lock.json
+└── .gitignore
+## 🛠️ Technologies Used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **Node.js**
+- **Netlify (Hosting & Deployment)**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧩 How to Run This Project Locally
 
-### `npm start`
+### 1️⃣ Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/rajasree09/college.git
+cd college
+2️⃣ Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
+3️⃣ Start the development server:
 
-### `npm test`
+npm start
+The app will run at:
+👉 http://localhost:3000/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🏗️ Build Instructions
+Build the optimized production version:
 
-### `npm run build`
+npm run build
+The build/ folder will be created containing:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Minified JS
+Optimized CSS
+index.html
+Static assets
+This folder is ready for deployment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌐 Deployment (Netlify – Complete Guide)
+Step 1 — Build the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run build
+Step 2 — Connect GitHub repo to Netlify
+Go to https://netlify.com
 
-### `npm run eject`
+Click Add New Site → Import from GitHub
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Select the repo college
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Set:
+Build command:     npm run build
+Publish directory: build
+Step 3 — Add Redirect File
+Create a file:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+public/_redirects
+Content:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+/* /index.html 200
+Step 4 — Deploy
+Click Deploy Site
 
-## Learn More
+Step 5 — Rename Site
+Go to Site Settings → Site Information → Change Site Name
+Set name:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+rajasreesale
+Final URL becomes:
+👉 https://rajasreesale.netlify.app/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👩‍💻 Developer Information
+Developer: Sale Rajasree
+📧 Email: makamrajasree@gmail.com
+🌍 Portfolio (optional)
+💻 Skills: React, JavaScript, Java, Full Stack Development
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ Support the Project
+If you found this useful, please ⭐ star the repository.
+It motivates further development and improves your GitHub profile visibility.
